@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "1. Server: Run (App)",
+            "type": "shell",
+            "command": "dotnet run --project HttpServer.App",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "2. Core: Test",
+            "type": "shell",
+            "command": "dotnet test MyWebSystem.sln",
+            "group": "test",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "3. Solution: Build",
+            "type": "shell",
+            "command": "dotnet build MyWebSystem.sln",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "4. Solution: Restore (Fix Path)",
+            "type": "shell",
+            "command": "dotnet sln MyWebSystem.sln add HttpServer.App/HttpServer.App.csproj HttpServer.Core/HttpServer.Core.csproj HttpServer.Tests/HttpServer.Tests.csproj && dotnet restore",
+            "problemMatcher": []
+        }
+    ]
+}

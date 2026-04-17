@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpServer.App", "HttpServer.App\HttpServer.App.csproj", "{7E74CF64-C5E4-4740-A465-DA1F6276485F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpServer.Core", "HttpServer.Core\HttpServer.Core.csproj", "{84D1A011-ED08-4ABA-9475-1BBE7DAE0E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpServer.Tests", "HttpServer.Tests\HttpServer.Tests.csproj", "{441FA751-7B80-4F1F-AF79-619FF365C86F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E74CF64-C5E4-4740-A465-DA1F6276485F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E74CF64-C5E4-4740-A465-DA1F6276485F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E74CF64-C5E4-4740-A465-DA1F6276485F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E74CF64-C5E4-4740-A465-DA1F6276485F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D1A011-ED08-4ABA-9475-1BBE7DAE0E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D1A011-ED08-4ABA-9475-1BBE7DAE0E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D1A011-ED08-4ABA-9475-1BBE7DAE0E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D1A011-ED08-4ABA-9475-1BBE7DAE0E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441FA751-7B80-4F1F-AF79-619FF365C86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441FA751-7B80-4F1F-AF79-619FF365C86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441FA751-7B80-4F1F-AF79-619FF365C86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441FA751-7B80-4F1F-AF79-619FF365C86F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

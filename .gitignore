@@ -1,0 +1,33 @@
+## .NET 共通の除外ファイル
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+## VS Code 関連
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+## OS 固有のゴミファイル
+.DS_Store
+Thumbs.db
+
+## .NET ユーザー固有設定やキャッシュ
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+## NuGet パッケージ関連
+*.nupkg
+/packages/
+project.lock.json
+project.fragment.lock.json
+
+## 環境変数や秘密情報
+.env
+*.pem
+*.pfx
