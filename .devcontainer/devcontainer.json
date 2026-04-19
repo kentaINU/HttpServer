@@ -6,6 +6,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        // MSでログインすると、フォルダがそれっぽく見えるみたい
         "ms-dotnettools.csdevkit",
         "ms-dotnettools.csharp",
         "ms-azuretools.vscode-docker"
